@@ -15,3 +15,7 @@ const arr = [33, 50, 79, 78, 90, 101, 30 ];
 
 const divisibleBy10 = arr.filter( num => num % 10 === 0);
 console.log(divisibleBy10);
+
+//Problem: 3
+const divisionBy10Find = arr.find( num => num % 10 === 0);
+console.log(divisionBy10Find);
